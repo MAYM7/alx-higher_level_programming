@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-for i in range(0, 10):
-    for l in range(i + 1, 10):
-        if i == 8 and l == 9:
-            print("{}{}".format(i, l))
+for dig1 in range(0, 10):
+    for dig2 in range(dig1 + 1, 10):
+        if dig1 == 8 and dig2 == 9:
+            print("{}{}".format(dig1, dig2))
         else:
-            print("{}{}".format(i, l), end=", ")
+            print("{}{}".format(dig1, dig2), end=", ")
