@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 
-for i in range(0, 10):
-    for l in range(0, 10):
-        if i == 9 and l == 9:
-             print("{}{}".format(i, l))
+for i in range(00, 100):
+        if i == 99:
+            print("{:02d}".format(i))
         else:
-             print("{}{}".format(i, l), end=", ")
+            print("{:02d}".format(i), end=", ")
